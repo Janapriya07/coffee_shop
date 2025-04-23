@@ -1,0 +1,65 @@
+.container{
+    height: 100vh;
+    width: 100wh;
+    background-image: url("img/c11.webp");
+    background-size: cover;
+    background-position: center;
+    padding:40px;
+    color:#fff;
+    
+}
+ul{
+    display:flex;
+    float:center;
+    margin-top:-600px;
+    margin-left: 800px;
+}
+ul li{
+    display:inline;
+    padding:30px;
+}
+ul li a{
+    color:#fff;
+    font-size:20px;
+    font-weight: bolder;
+    
+}
+ul li a:hover{
+    color:aqua;
+    border:2px solid #fff;
+    border-radius: 5px;
+    padding: 20px;
+}
+.items{
+    background-image:url("img/c20.jpg");
+ display: grid;
+ grid-template-columns: repeat(3,1fr);
+ padding: 50px ;
+ grid-column-gap:20px;
+ grid-row-gap: 20px;
+}
+.item img{
+    width : 95%;
+    height : 200px;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.item button{
+    padding: 15px;
+    background-color: brown;
+    color:white;
+    border-radius:9px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+
+}
+.item h4{
+    padding: 9px;
+    text-align: center;
+}
+ 
+
+
+
